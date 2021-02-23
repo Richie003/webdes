@@ -1,0 +1,1 @@
+from django.urls import pathfrom . import viewsurlpatterns= [    # path('hostel/', views.reg, name='registry'),    path('', views.home, name='index'),    path('form/', views.signy, name='sign_up'),]

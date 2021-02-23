@@ -1,0 +1,1 @@
+from django import formsfrom .models import Registration, DataFormclass RegForm(forms.ModelForm):    class Meta:        model = Registration        fields =[            'first_name',            'last_name',            'email',            'phone',            'username',            'password',            'confirm'        ]
